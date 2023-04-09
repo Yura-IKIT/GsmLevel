@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+	name = YuMat
+	email = yumat1952@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = admin
+#	email = ym@yuWin10.(none)
+[core]
+	editor = 'C:/Program Files/Notepad++/notepad++.exe'\\
+[init]
+	defaultBranch = main
+[alias]
+	st = status
+	s = status --short
+	l = log --oneline --graph --decorate --all
+	g = log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
+	br=branch
+	co=checkout
