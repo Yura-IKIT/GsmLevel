@@ -6,4 +6,5 @@ with open('18.09.22.TXT', 'r') as f:
     print(data)
 f=os.listdir()
 print(f)
-
+print(f[1])
+print(f[-1])
