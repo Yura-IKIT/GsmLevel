@@ -1,10 +1,12 @@
+#new branch develop
 
 import os
-print("read ASCI file with GSM data")
-with open('18.09.22.TXT', 'r') as f:
-    data = f.read()
+print("read ASCI dile with GSM data")
+with open('18.09.22.TXT', 'r') as d:
+    data = d.read()
     print(data)
-f=os.listdir()
-print(f)
-print(f[1])
-print(f[-1])
+d.close()
+d=os.listdir()
+print(d)
+print(d[1])
+print(d[-1])
